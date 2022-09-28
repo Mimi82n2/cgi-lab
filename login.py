@@ -28,7 +28,7 @@ header += "Content-Type: text/html\r\n"
 body = ""
 #if username is not None or ('logged' in cookies and cookies['logged'] == 'true'):
 
-if username is not None #or ('logged' in cookies and cookies['logged'] == 'true'):
+if username is not None:
     body += secret_page(username, password)
     header += "Set-Cookie: logged=true; Max-Age=60\r\n"
     header += "Set-Cookie: cookie=nom\r\n"
