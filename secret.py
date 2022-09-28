@@ -14,5 +14,5 @@ class FollowingTheTAsInstructionsError(Exception):
 
 
 # Edit the following two lines:
-username = "<user>"
-password = "<pass>"
+username = "user"
+password = "pass"
