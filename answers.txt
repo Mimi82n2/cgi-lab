@@ -1,0 +1,21 @@
+Question 1: How do you inspect all environment variables in Python?
+A. You can loop through os.environ.items() and retrieve the environment variables.
+    print("ENVIRONMENT VAR ", json.dumps(env, sort_keys=True))
+
+Question 2: What environment variable contains the query parameter data?
+A. In the QUERY_STRING
+
+Qeustion 3: What environment variable contains information about the user’s browser?
+HTTP_USER_AGENT
+
+Question 4: How does the POSTed data come to the CGI script?
+A. 
+
+Question 6: What is the HTTP header syntax the browser uses to send the cookie back?
+A. 
+
+Question 7: In your own words, what are cookies used for?
+A. 
+
+Question 8: What is the link to your code on GitHub?
+A. 
